@@ -1,0 +1,16 @@
+# Entorno de análisis (CPU). Para GPU use requirements-gpu.txt.
+torch>=2.14.0
+torchvision>=0.29.0
+timm>=1.0.29
+numpy>=2.5.2
+pandas>=3.0.5
+scipy
+scikit-learn>=1.9.0
+pillow>=12.3.0
+tqdm>=4.70.0
+matplotlib>=3.11.1
+seaborn>=0.13.2
+opencv-python-headless>=5.0.0.93
+imagehash>=4.3.2
+pydicom>=3.0.2
+jupyterlab

@@ -1,0 +1,31 @@
+modelo,condicion,area_tapada,exactitud,exactitud_balanceada,pred_sin_cambio
+ViT-Base,ninguna,0.0,0.88,0.8800000000000001,1.0
+ViT-Base,sin marco (24 px),0.38265305757522583,0.712,0.712,0.72
+ViT-Base,sin esquinas sup.,0.125,0.86,0.86,0.896
+ViT-Base,sin centro 112²,0.25,0.82,0.82,0.852
+ViT-Base,sin región pulmonar,0.43048468232154846,0.75,0.75,0.768
+ViT-Base,SOLO marco (24 px),0.6173469424247742,0.568,0.568,0.57
+CoAtNet,ninguna,0.0,0.874,0.874,1.0
+CoAtNet,sin marco (24 px),0.38265305757522583,0.796,0.796,0.806
+CoAtNet,sin esquinas sup.,0.125,0.85,0.85,0.886
+CoAtNet,sin centro 112²,0.25,0.818,0.818,0.866
+CoAtNet,sin región pulmonar,0.43048468232154846,0.734,0.734,0.756
+CoAtNet,SOLO marco (24 px),0.6173469424247742,0.592,0.592,0.586
+Swin-Tiny,ninguna,0.0,0.88,0.8799999999999999,1.0
+Swin-Tiny,sin marco (24 px),0.38265305757522583,0.762,0.7619999999999999,0.804
+Swin-Tiny,sin esquinas sup.,0.125,0.86,0.86,0.914
+Swin-Tiny,sin centro 112²,0.25,0.838,0.8380000000000001,0.882
+Swin-Tiny,sin región pulmonar,0.43048468232154846,0.752,0.752,0.794
+Swin-Tiny,SOLO marco (24 px),0.6173469424247742,0.65,0.65,0.674
+VGG16,ninguna,0.0,0.852,0.852,1.0
+VGG16,sin marco (24 px),0.38265305757522583,0.636,0.6359999999999999,0.678
+VGG16,sin esquinas sup.,0.125,0.806,0.806,0.854
+VGG16,sin centro 112²,0.25,0.678,0.6779999999999999,0.732
+VGG16,sin región pulmonar,0.43048468232154846,0.588,0.5880000000000001,0.59
+VGG16,SOLO marco (24 px),0.6173469424247742,0.522,0.522,0.504
+MobileNetV3,ninguna,0.0,0.838,0.8379999999999999,1.0
+MobileNetV3,sin marco (24 px),0.38265305757522583,0.538,0.538,0.59
+MobileNetV3,sin esquinas sup.,0.125,0.734,0.734,0.802
+MobileNetV3,sin centro 112²,0.25,0.434,0.434,0.45
+MobileNetV3,sin región pulmonar,0.43048468232154846,0.33,0.33,0.34
+MobileNetV3,SOLO marco (24 px),0.6173469424247742,0.254,0.254,0.27

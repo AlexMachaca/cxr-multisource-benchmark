@@ -1,0 +1,151 @@
+modelo,condicion,clase,recall
+ViT-Base,ninguna,COVID-19,0.95
+ViT-Base,ninguna,Normal,0.83
+ViT-Base,ninguna,Pneumonia,0.89
+ViT-Base,ninguna,Silicosis,0.95
+ViT-Base,ninguna,Tuberculosis,0.78
+ViT-Base,sin marco (24 px),COVID-19,0.98
+ViT-Base,sin marco (24 px),Normal,0.57
+ViT-Base,sin marco (24 px),Pneumonia,0.79
+ViT-Base,sin marco (24 px),Silicosis,0.57
+ViT-Base,sin marco (24 px),Tuberculosis,0.65
+ViT-Base,sin esquinas sup.,COVID-19,0.93
+ViT-Base,sin esquinas sup.,Normal,0.8
+ViT-Base,sin esquinas sup.,Pneumonia,0.88
+ViT-Base,sin esquinas sup.,Silicosis,0.92
+ViT-Base,sin esquinas sup.,Tuberculosis,0.77
+ViT-Base,sin centro 112²,COVID-19,0.93
+ViT-Base,sin centro 112²,Normal,0.73
+ViT-Base,sin centro 112²,Pneumonia,0.88
+ViT-Base,sin centro 112²,Silicosis,0.82
+ViT-Base,sin centro 112²,Tuberculosis,0.74
+ViT-Base,sin región pulmonar,COVID-19,0.9
+ViT-Base,sin región pulmonar,Normal,0.54
+ViT-Base,sin región pulmonar,Pneumonia,0.89
+ViT-Base,sin región pulmonar,Silicosis,0.84
+ViT-Base,sin región pulmonar,Tuberculosis,0.58
+ViT-Base,SOLO marco (24 px),COVID-19,0.76
+ViT-Base,SOLO marco (24 px),Normal,0.24
+ViT-Base,SOLO marco (24 px),Pneumonia,0.72
+ViT-Base,SOLO marco (24 px),Silicosis,0.79
+ViT-Base,SOLO marco (24 px),Tuberculosis,0.33
+CoAtNet,ninguna,COVID-19,0.97
+CoAtNet,ninguna,Normal,0.82
+CoAtNet,ninguna,Pneumonia,0.91
+CoAtNet,ninguna,Silicosis,0.88
+CoAtNet,ninguna,Tuberculosis,0.79
+CoAtNet,sin marco (24 px),COVID-19,1.0
+CoAtNet,sin marco (24 px),Normal,0.5
+CoAtNet,sin marco (24 px),Pneumonia,0.81
+CoAtNet,sin marco (24 px),Silicosis,0.8
+CoAtNet,sin marco (24 px),Tuberculosis,0.87
+CoAtNet,sin esquinas sup.,COVID-19,0.95
+CoAtNet,sin esquinas sup.,Normal,0.69
+CoAtNet,sin esquinas sup.,Pneumonia,0.84
+CoAtNet,sin esquinas sup.,Silicosis,0.95
+CoAtNet,sin esquinas sup.,Tuberculosis,0.82
+CoAtNet,sin centro 112²,COVID-19,0.93
+CoAtNet,sin centro 112²,Normal,0.77
+CoAtNet,sin centro 112²,Pneumonia,0.76
+CoAtNet,sin centro 112²,Silicosis,0.91
+CoAtNet,sin centro 112²,Tuberculosis,0.72
+CoAtNet,sin región pulmonar,COVID-19,0.76
+CoAtNet,sin región pulmonar,Normal,0.65
+CoAtNet,sin región pulmonar,Pneumonia,0.76
+CoAtNet,sin región pulmonar,Silicosis,0.84
+CoAtNet,sin región pulmonar,Tuberculosis,0.66
+CoAtNet,SOLO marco (24 px),COVID-19,0.39
+CoAtNet,SOLO marco (24 px),Normal,0.28
+CoAtNet,SOLO marco (24 px),Pneumonia,0.73
+CoAtNet,SOLO marco (24 px),Silicosis,0.83
+CoAtNet,SOLO marco (24 px),Tuberculosis,0.73
+Swin-Tiny,ninguna,COVID-19,0.94
+Swin-Tiny,ninguna,Normal,0.77
+Swin-Tiny,ninguna,Pneumonia,0.9
+Swin-Tiny,ninguna,Silicosis,0.95
+Swin-Tiny,ninguna,Tuberculosis,0.84
+Swin-Tiny,sin marco (24 px),COVID-19,0.97
+Swin-Tiny,sin marco (24 px),Normal,0.5
+Swin-Tiny,sin marco (24 px),Pneumonia,0.66
+Swin-Tiny,sin marco (24 px),Silicosis,0.9
+Swin-Tiny,sin marco (24 px),Tuberculosis,0.78
+Swin-Tiny,sin esquinas sup.,COVID-19,0.94
+Swin-Tiny,sin esquinas sup.,Normal,0.74
+Swin-Tiny,sin esquinas sup.,Pneumonia,0.88
+Swin-Tiny,sin esquinas sup.,Silicosis,0.94
+Swin-Tiny,sin esquinas sup.,Tuberculosis,0.8
+Swin-Tiny,sin centro 112²,COVID-19,0.83
+Swin-Tiny,sin centro 112²,Normal,0.81
+Swin-Tiny,sin centro 112²,Pneumonia,0.87
+Swin-Tiny,sin centro 112²,Silicosis,0.97
+Swin-Tiny,sin centro 112²,Tuberculosis,0.71
+Swin-Tiny,sin región pulmonar,COVID-19,0.75
+Swin-Tiny,sin región pulmonar,Normal,0.76
+Swin-Tiny,sin región pulmonar,Pneumonia,0.8
+Swin-Tiny,sin región pulmonar,Silicosis,0.87
+Swin-Tiny,sin región pulmonar,Tuberculosis,0.58
+Swin-Tiny,SOLO marco (24 px),COVID-19,0.65
+Swin-Tiny,SOLO marco (24 px),Normal,0.57
+Swin-Tiny,SOLO marco (24 px),Pneumonia,0.76
+Swin-Tiny,SOLO marco (24 px),Silicosis,0.88
+Swin-Tiny,SOLO marco (24 px),Tuberculosis,0.39
+VGG16,ninguna,COVID-19,0.96
+VGG16,ninguna,Normal,0.81
+VGG16,ninguna,Pneumonia,0.9
+VGG16,ninguna,Silicosis,0.9
+VGG16,ninguna,Tuberculosis,0.69
+VGG16,sin marco (24 px),COVID-19,0.97
+VGG16,sin marco (24 px),Normal,0.41
+VGG16,sin marco (24 px),Pneumonia,0.44
+VGG16,sin marco (24 px),Silicosis,0.87
+VGG16,sin marco (24 px),Tuberculosis,0.49
+VGG16,sin esquinas sup.,COVID-19,0.94
+VGG16,sin esquinas sup.,Normal,0.73
+VGG16,sin esquinas sup.,Pneumonia,0.79
+VGG16,sin esquinas sup.,Silicosis,0.85
+VGG16,sin esquinas sup.,Tuberculosis,0.72
+VGG16,sin centro 112²,COVID-19,0.64
+VGG16,sin centro 112²,Normal,0.65
+VGG16,sin centro 112²,Pneumonia,0.81
+VGG16,sin centro 112²,Silicosis,0.95
+VGG16,sin centro 112²,Tuberculosis,0.34
+VGG16,sin región pulmonar,COVID-19,0.54
+VGG16,sin región pulmonar,Normal,0.4
+VGG16,sin región pulmonar,Pneumonia,0.74
+VGG16,sin región pulmonar,Silicosis,0.75
+VGG16,sin región pulmonar,Tuberculosis,0.51
+VGG16,SOLO marco (24 px),COVID-19,0.36
+VGG16,SOLO marco (24 px),Normal,0.26
+VGG16,SOLO marco (24 px),Pneumonia,0.52
+VGG16,SOLO marco (24 px),Silicosis,0.76
+VGG16,SOLO marco (24 px),Tuberculosis,0.71
+MobileNetV3,ninguna,COVID-19,0.89
+MobileNetV3,ninguna,Normal,0.78
+MobileNetV3,ninguna,Pneumonia,0.86
+MobileNetV3,ninguna,Silicosis,0.97
+MobileNetV3,ninguna,Tuberculosis,0.69
+MobileNetV3,sin marco (24 px),COVID-19,0.9
+MobileNetV3,sin marco (24 px),Normal,0.64
+MobileNetV3,sin marco (24 px),Pneumonia,0.58
+MobileNetV3,sin marco (24 px),Silicosis,0.44
+MobileNetV3,sin marco (24 px),Tuberculosis,0.13
+MobileNetV3,sin esquinas sup.,COVID-19,0.78
+MobileNetV3,sin esquinas sup.,Normal,0.74
+MobileNetV3,sin esquinas sup.,Pneumonia,0.89
+MobileNetV3,sin esquinas sup.,Silicosis,0.82
+MobileNetV3,sin esquinas sup.,Tuberculosis,0.44
+MobileNetV3,sin centro 112²,COVID-19,0.13
+MobileNetV3,sin centro 112²,Normal,0.64
+MobileNetV3,sin centro 112²,Pneumonia,0.77
+MobileNetV3,sin centro 112²,Silicosis,0.38
+MobileNetV3,sin centro 112²,Tuberculosis,0.25
+MobileNetV3,sin región pulmonar,COVID-19,0.03
+MobileNetV3,sin región pulmonar,Normal,0.6
+MobileNetV3,sin región pulmonar,Pneumonia,0.53
+MobileNetV3,sin región pulmonar,Silicosis,0.16
+MobileNetV3,sin región pulmonar,Tuberculosis,0.33
+MobileNetV3,SOLO marco (24 px),COVID-19,0.03
+MobileNetV3,SOLO marco (24 px),Normal,0.84
+MobileNetV3,SOLO marco (24 px),Pneumonia,0.19
+MobileNetV3,SOLO marco (24 px),Silicosis,0.07
+MobileNetV3,SOLO marco (24 px),Tuberculosis,0.14

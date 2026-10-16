@@ -1,0 +1,24 @@
+# Datos y modelos: NO se suben (acuerdos de SilicoData y VinDr-CXR)
+Datasets/
+dataset_final/
+dataset_final_224/
+dataset_e2/
+*.zip
+*.7z
+*.pt
+*.pth
+*.npz
+*.dcm
+# Derivados de SilicoData
+**/INTERNO_*
+resultados/gradcam_clasificadores/energias_*.csv
+resultados/gradcam_clasificadores/cam_medio_*.npz
+resultados/gradcam_clasificadores/fig_ejemplos_*
+# Entornos y temporales
+.venv/
+.venv-gpu/
+__pycache__/
+.ipynb_checkpoints/
+*.aux
+*.log
+*.out

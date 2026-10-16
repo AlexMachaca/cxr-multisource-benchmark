@@ -1,0 +1,6 @@
+clase_real,COVID-19,Normal,Pneumonia,Silicosis,Tuberculosis
+COVID-19,753,97,36,2,7
+Normal,72,724,38,58,9
+Pneumonia,64,109,724,1,0
+Silicosis,4,1,1,155,1
+Tuberculosis,54,80,4,112,240

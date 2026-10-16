@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Code for: Joint Classification of Infectious and Occupational Lung Diseases on Chest X-Rays: A Benchmark of Convolutional, Transformer, and Hybrid Networks"
+type: software
+license: MIT
+version: "0.1.0"
+authors:
+  - family-names: "Machaca-Chuquimamani"
+    given-names: "Alex David"
+    orcid: "https://orcid.org/0009-0006-8603-7577"
+    affiliation: "Escuela Profesional de Ingeniería Informática y Sistemas, Universidad Nacional Micaela Bastidas de Apurímac, Abancay, Peru"
+  - family-names: "Ibarra-Cabrera"
+    given-names: "Manuel Jesus"
+    orcid: "https://orcid.org/0000-0001-6711-4916"
+    affiliation: "Departamento Académico de Informática y Sistemas, Universidad Nacional Micaela Bastidas de Apurímac, Abancay, Peru"
+# TODO al publicar: repository-code, doi (Zenodo) y preferred-citation con el DOI del artículo.

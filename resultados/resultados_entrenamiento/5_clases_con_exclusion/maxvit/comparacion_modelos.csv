@@ -1,0 +1,2 @@
+model_name,variant_name,accuracy,precision_macro,recall_macro,f1_macro,auc_roc_macro,total_params,trainable_params,size_mb,inference_time_ms_per_image,n_test_images,total_training_time_s,best_epoch,best_phase,gpu
+maxvit_tiny_tf_224,5clases_con_exclusion,0.8481769276748357,0.8156797216514038,0.8519096236181053,0.8301673285016019,0.9774698849561612,30406093,20642909,115.99003982543945,8.160283090964235,3346,3588.4178268909454,12,fase2_finetuning,Tesla T4
